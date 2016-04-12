@@ -15,6 +15,7 @@
 		490FB81A1CBCEDC100ABD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */; };
 		490FB8251CBCEDC100ABD72F /* DFBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB8241CBCEDC100ABD72F /* DFBookTests.m */; };
 		490FB8301CBCEDC100ABD72F /* DFBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */; };
+		490FB8401CBD3CF100ABD72F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 490FB83F1CBD3CF100ABD72F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		490FB82B1CBCEDC100ABD72F /* DFBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBookUITests.m; sourceTree = "<group>"; };
 		490FB8311CBCEDC100ABD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490FB83F1CBD3CF100ABD72F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				490FB8231CBCEDC100ABD72F /* DFBookTests */,
 				490FB82E1CBCEDC100ABD72F /* DFBookUITests */,
 				490FB8081CBCEDC100ABD72F /* Products */,
+				490FB83F1CBD3CF100ABD72F /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +104,6 @@
 		490FB8091CBCEDC100ABD72F /* DFBook */ = {
 			isa = PBXGroup;
 			children = (
-				490FB80D1CBCEDC100ABD72F /* AppDelegate.h */,
-				490FB80E1CBCEDC100ABD72F /* AppDelegate.m */,
 				490FB8101CBCEDC100ABD72F /* ViewController.h */,
 				490FB8111CBCEDC100ABD72F /* ViewController.m */,
 				490FB8131CBCEDC100ABD72F /* Main.storyboard */,
@@ -116,6 +117,8 @@
 		490FB80A1CBCEDC100ABD72F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				490FB80D1CBCEDC100ABD72F /* AppDelegate.h */,
+				490FB80E1CBCEDC100ABD72F /* AppDelegate.m */,
 				490FB81B1CBCEDC100ABD72F /* Info.plist */,
 				490FB80B1CBCEDC100ABD72F /* main.m */,
 			);
@@ -272,6 +275,7 @@
 			files = (
 				490FB8121CBCEDC100ABD72F /* ViewController.m in Sources */,
 				490FB80F1CBCEDC100ABD72F /* AppDelegate.m in Sources */,
+				490FB8401CBD3CF100ABD72F /* README.md in Sources */,
 				490FB80C1CBCEDC100ABD72F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
