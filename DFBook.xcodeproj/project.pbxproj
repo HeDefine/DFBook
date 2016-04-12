@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490FB80C1CBCEDC100ABD72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB80B1CBCEDC100ABD72F /* main.m */; };
+		490FB80F1CBCEDC100ABD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB80E1CBCEDC100ABD72F /* AppDelegate.m */; };
+		490FB8121CBCEDC100ABD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB8111CBCEDC100ABD72F /* ViewController.m */; };
+		490FB8151CBCEDC100ABD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8131CBCEDC100ABD72F /* Main.storyboard */; };
+		490FB8171CBCEDC100ABD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8161CBCEDC100ABD72F /* Assets.xcassets */; };
+		490FB81A1CBCEDC100ABD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */; };
+		490FB8251CBCEDC100ABD72F /* DFBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB8241CBCEDC100ABD72F /* DFBookTests.m */; };
+		490FB8301CBCEDC100ABD72F /* DFBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		490FB8211CBCEDC100ABD72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 490FB7FF1CBCEDC100ABD72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490FB8061CBCEDC100ABD72F;
+			remoteInfo = DFBook;
+		};
+		490FB82C1CBCEDC100ABD72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 490FB7FF1CBCEDC100ABD72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490FB8061CBCEDC100ABD72F;
+			remoteInfo = DFBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490FB8071CBCEDC100ABD72F /* DFBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490FB80B1CBCEDC100ABD72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		490FB80D1CBCEDC100ABD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		490FB80E1CBCEDC100ABD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		490FB8101CBCEDC100ABD72F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		490FB8111CBCEDC100ABD72F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		490FB8141CBCEDC100ABD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		490FB8161CBCEDC100ABD72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		490FB8191CBCEDC100ABD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		490FB81B1CBCEDC100ABD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490FB8201CBCEDC100ABD72F /* DFBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		490FB8241CBCEDC100ABD72F /* DFBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBookTests.m; sourceTree = "<group>"; };
+		490FB8261CBCEDC100ABD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490FB82B1CBCEDC100ABD72F /* DFBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBookUITests.m; sourceTree = "<group>"; };
+		490FB8311CBCEDC100ABD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490FB8041CBCEDC100ABD72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490FB81D1CBCEDC100ABD72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490FB8281CBCEDC100ABD72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490FB7FE1CBCEDC100ABD72F = {
+			isa = PBXGroup;
+			children = (
+				490FB8091CBCEDC100ABD72F /* DFBook */,
+				490FB8231CBCEDC100ABD72F /* DFBookTests */,
+				490FB82E1CBCEDC100ABD72F /* DFBookUITests */,
+				490FB8081CBCEDC100ABD72F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490FB8081CBCEDC100ABD72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490FB8071CBCEDC100ABD72F /* DFBook.app */,
+				490FB8201CBCEDC100ABD72F /* DFBookTests.xctest */,
+				490FB82B1CBCEDC100ABD72F /* DFBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490FB8091CBCEDC100ABD72F /* DFBook */ = {
+			isa = PBXGroup;
+			children = (
+				490FB80D1CBCEDC100ABD72F /* AppDelegate.h */,
+				490FB80E1CBCEDC100ABD72F /* AppDelegate.m */,
+				490FB8101CBCEDC100ABD72F /* ViewController.h */,
+				490FB8111CBCEDC100ABD72F /* ViewController.m */,
+				490FB8131CBCEDC100ABD72F /* Main.storyboard */,
+				490FB8161CBCEDC100ABD72F /* Assets.xcassets */,
+				490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */,
+				490FB81B1CBCEDC100ABD72F /* Info.plist */,
+				490FB80A1CBCEDC100ABD72F /* Supporting Files */,
+			);
+			path = DFBook;
+			sourceTree = "<group>";
+		};
+		490FB80A1CBCEDC100ABD72F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490FB80B1CBCEDC100ABD72F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490FB8231CBCEDC100ABD72F /* DFBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				490FB8241CBCEDC100ABD72F /* DFBookTests.m */,
+				490FB8261CBCEDC100ABD72F /* Info.plist */,
+			);
+			path = DFBookTests;
+			sourceTree = "<group>";
+		};
+		490FB82E1CBCEDC100ABD72F /* DFBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */,
+				490FB8311CBCEDC100ABD72F /* Info.plist */,
+			);
+			path = DFBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490FB8061CBCEDC100ABD72F /* DFBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490FB8341CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBook" */;
+			buildPhases = (
+				490FB8031CBCEDC100ABD72F /* Sources */,
+				490FB8041CBCEDC100ABD72F /* Frameworks */,
+				490FB8051CBCEDC100ABD72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFBook;
+			productName = DFBook;
+			productReference = 490FB8071CBCEDC100ABD72F /* DFBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		490FB81F1CBCEDC100ABD72F /* DFBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490FB8371CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBookTests" */;
+			buildPhases = (
+				490FB81C1CBCEDC100ABD72F /* Sources */,
+				490FB81D1CBCEDC100ABD72F /* Frameworks */,
+				490FB81E1CBCEDC100ABD72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490FB8221CBCEDC100ABD72F /* PBXTargetDependency */,
+			);
+			name = DFBookTests;
+			productName = DFBookTests;
+			productReference = 490FB8201CBCEDC100ABD72F /* DFBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		490FB82A1CBCEDC100ABD72F /* DFBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490FB83A1CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBookUITests" */;
+			buildPhases = (
+				490FB8271CBCEDC100ABD72F /* Sources */,
+				490FB8281CBCEDC100ABD72F /* Frameworks */,
+				490FB8291CBCEDC100ABD72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490FB82D1CBCEDC100ABD72F /* PBXTargetDependency */,
+			);
+			name = DFBookUITests;
+			productName = DFBookUITests;
+			productReference = 490FB82B1CBCEDC100ABD72F /* DFBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490FB7FF1CBCEDC100ABD72F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hdf;
+				TargetAttributes = {
+					490FB8061CBCEDC100ABD72F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					490FB81F1CBCEDC100ABD72F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 490FB8061CBCEDC100ABD72F;
+					};
+					490FB82A1CBCEDC100ABD72F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 490FB8061CBCEDC100ABD72F;
+					};
+				};
+			};
+			buildConfigurationList = 490FB8021CBCEDC100ABD72F /* Build configuration list for PBXProject "DFBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490FB7FE1CBCEDC100ABD72F;
+			productRefGroup = 490FB8081CBCEDC100ABD72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490FB8061CBCEDC100ABD72F /* DFBook */,
+				490FB81F1CBCEDC100ABD72F /* DFBookTests */,
+				490FB82A1CBCEDC100ABD72F /* DFBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490FB8051CBCEDC100ABD72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490FB81A1CBCEDC100ABD72F /* LaunchScreen.storyboard in Resources */,
+				490FB8171CBCEDC100ABD72F /* Assets.xcassets in Resources */,
+				490FB8151CBCEDC100ABD72F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490FB81E1CBCEDC100ABD72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490FB8291CBCEDC100ABD72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490FB8031CBCEDC100ABD72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490FB8121CBCEDC100ABD72F /* ViewController.m in Sources */,
+				490FB80F1CBCEDC100ABD72F /* AppDelegate.m in Sources */,
+				490FB80C1CBCEDC100ABD72F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490FB81C1CBCEDC100ABD72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490FB8251CBCEDC100ABD72F /* DFBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490FB8271CBCEDC100ABD72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490FB8301CBCEDC100ABD72F /* DFBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490FB8221CBCEDC100ABD72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490FB8061CBCEDC100ABD72F /* DFBook */;
+			targetProxy = 490FB8211CBCEDC100ABD72F /* PBXContainerItemProxy */;
+		};
+		490FB82D1CBCEDC100ABD72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490FB8061CBCEDC100ABD72F /* DFBook */;
+			targetProxy = 490FB82C1CBCEDC100ABD72F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		490FB8131CBCEDC100ABD72F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490FB8141CBCEDC100ABD72F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490FB8191CBCEDC100ABD72F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490FB8321CBCEDC100ABD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		490FB8331CBCEDC100ABD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		490FB8351CBCEDC100ABD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hdf.com.DFBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		490FB8361CBCEDC100ABD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hdf.com.DFBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		490FB8381CBCEDC100ABD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hdf.com.DFBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFBook.app/DFBook";
+			};
+			name = Debug;
+		};
+		490FB8391CBCEDC100ABD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hdf.com.DFBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFBook.app/DFBook";
+			};
+			name = Release;
+		};
+		490FB83B1CBCEDC100ABD72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hdf.com.DFBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFBook;
+			};
+			name = Debug;
+		};
+		490FB83C1CBCEDC100ABD72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hdf.com.DFBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490FB8021CBCEDC100ABD72F /* Build configuration list for PBXProject "DFBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490FB8321CBCEDC100ABD72F /* Debug */,
+				490FB8331CBCEDC100ABD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490FB8341CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490FB8351CBCEDC100ABD72F /* Debug */,
+				490FB8361CBCEDC100ABD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		490FB8371CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490FB8381CBCEDC100ABD72F /* Debug */,
+				490FB8391CBCEDC100ABD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		490FB83A1CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490FB83B1CBCEDC100ABD72F /* Debug */,
+				490FB83C1CBCEDC100ABD72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 490FB7FF1CBCEDC100ABD72F /* Project object */;
+}
