@@ -108,7 +108,6 @@
 				490FB8131CBCEDC100ABD72F /* Main.storyboard */,
 				490FB8161CBCEDC100ABD72F /* Assets.xcassets */,
 				490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */,
-				490FB81B1CBCEDC100ABD72F /* Info.plist */,
 				490FB80A1CBCEDC100ABD72F /* Supporting Files */,
 			);
 			path = DFBook;
@@ -117,6 +116,7 @@
 		490FB80A1CBCEDC100ABD72F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				490FB81B1CBCEDC100ABD72F /* Info.plist */,
 				490FB80B1CBCEDC100ABD72F /* main.m */,
 			);
 			name = "Supporting Files";
