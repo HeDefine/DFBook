@@ -10,12 +10,12 @@
 		490FB80C1CBCEDC100ABD72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB80B1CBCEDC100ABD72F /* main.m */; };
 		490FB80F1CBCEDC100ABD72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB80E1CBCEDC100ABD72F /* AppDelegate.m */; };
 		490FB8151CBCEDC100ABD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8131CBCEDC100ABD72F /* Main.storyboard */; };
-		490FB8171CBCEDC100ABD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8161CBCEDC100ABD72F /* Assets.xcassets */; };
 		490FB81A1CBCEDC100ABD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */; };
 		490FB8251CBCEDC100ABD72F /* DFBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB8241CBCEDC100ABD72F /* DFBookTests.m */; };
 		490FB8301CBCEDC100ABD72F /* DFBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */; };
 		490FB8401CBD3CF100ABD72F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 490FB83F1CBD3CF100ABD72F /* README.md */; };
 		490FB84B1CBE2D4600ABD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB84A1CBE2D4600ABD72F /* ViewController.m */; };
+		490FB84F1CBE31DC00ABD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490FB84D1CBE31DB00ABD72F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		490FB80D1CBCEDC100ABD72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		490FB80E1CBCEDC100ABD72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		490FB8141CBCEDC100ABD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		490FB8161CBCEDC100ABD72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490FB8191CBCEDC100ABD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490FB81B1CBCEDC100ABD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490FB8201CBCEDC100ABD72F /* DFBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		490FB83F1CBD3CF100ABD72F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		490FB8491CBE2D4600ABD72F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		490FB84A1CBE2D4600ABD72F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		490FB84D1CBE31DB00ABD72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +104,14 @@
 		490FB8091CBCEDC100ABD72F /* DFBook */ = {
 			isa = PBXGroup;
 			children = (
+				490FB84C1CBE31DB00ABD72F /* Images */,
+				490FB84E1CBE31DB00ABD72F /* Resourse */,
 				490FB8461CBE2D2300ABD72F /* Model */,
 				490FB8471CBE2D2300ABD72F /* View */,
 				490FB8481CBE2D2300ABD72F /* ViewController */,
 				490FB80D1CBCEDC100ABD72F /* AppDelegate.h */,
 				490FB80E1CBCEDC100ABD72F /* AppDelegate.m */,
 				490FB8131CBCEDC100ABD72F /* Main.storyboard */,
-				490FB8161CBCEDC100ABD72F /* Assets.xcassets */,
 				490FB8181CBCEDC100ABD72F /* LaunchScreen.storyboard */,
 				490FB80A1CBCEDC100ABD72F /* Supporting Files */,
 			);
@@ -165,6 +166,21 @@
 				490FB84A1CBE2D4600ABD72F /* ViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		490FB84C1CBE31DB00ABD72F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				490FB84D1CBE31DB00ABD72F /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		490FB84E1CBE31DB00ABD72F /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490FB81A1CBCEDC100ABD72F /* LaunchScreen.storyboard in Resources */,
-				490FB8171CBCEDC100ABD72F /* Assets.xcassets in Resources */,
+				490FB84F1CBE31DC00ABD72F /* Assets.xcassets in Resources */,
 				490FB8151CBCEDC100ABD72F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +542,7 @@
 				490FB8361CBCEDC100ABD72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		490FB8371CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBookTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +551,7 @@
 				490FB8391CBCEDC100ABD72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		490FB83A1CBCEDC100ABD72F /* Build configuration list for PBXNativeTarget "DFBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +560,7 @@
 				490FB83C1CBCEDC100ABD72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
