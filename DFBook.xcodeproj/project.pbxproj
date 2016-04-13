@@ -14,8 +14,8 @@
 		490FB8251CBCEDC100ABD72F /* DFBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB8241CBCEDC100ABD72F /* DFBookTests.m */; };
 		490FB8301CBCEDC100ABD72F /* DFBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */; };
 		490FB8401CBD3CF100ABD72F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 490FB83F1CBD3CF100ABD72F /* README.md */; };
-		490FB84B1CBE2D4600ABD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB84A1CBE2D4600ABD72F /* ViewController.m */; };
 		490FB84F1CBE31DC00ABD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490FB84D1CBE31DB00ABD72F /* Assets.xcassets */; };
+		490FB8531CBE336900ABD72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FB8521CBE336900ABD72F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		490FB82F1CBCEDC100ABD72F /* DFBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBookUITests.m; sourceTree = "<group>"; };
 		490FB8311CBCEDC100ABD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490FB83F1CBD3CF100ABD72F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		490FB8491CBE2D4600ABD72F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		490FB84A1CBE2D4600ABD72F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		490FB84D1CBE31DB00ABD72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		490FB8511CBE336900ABD72F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		490FB8521CBE336900ABD72F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				490FB84C1CBE31DB00ABD72F /* Images */,
-				490FB84E1CBE31DB00ABD72F /* Resourse */,
-				490FB8461CBE2D2300ABD72F /* Model */,
-				490FB8471CBE2D2300ABD72F /* View */,
-				490FB8481CBE2D2300ABD72F /* ViewController */,
+				490FB84E1CBE31DB00ABD72F /* Resourses */,
+				490FB8461CBE2D2300ABD72F /* Models */,
+				490FB8471CBE2D2300ABD72F /* Views */,
+				490FB8501CBE336900ABD72F /* ViewControllers */,
+				490FB8541CBE340900ABD72F /* Common */,
+				490FB8551CBE340900ABD72F /* libary */,
+				490FB8561CBE340900ABD72F /* Utils */,
 				490FB80D1CBCEDC100ABD72F /* AppDelegate.h */,
 				490FB80E1CBCEDC100ABD72F /* AppDelegate.m */,
 				490FB8131CBCEDC100ABD72F /* Main.storyboard */,
@@ -145,27 +148,20 @@
 			path = DFBookUITests;
 			sourceTree = "<group>";
 		};
-		490FB8461CBE2D2300ABD72F /* Model */ = {
+		490FB8461CBE2D2300ABD72F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Models;
 			path = Model;
 			sourceTree = "<group>";
 		};
-		490FB8471CBE2D2300ABD72F /* View */ = {
+		490FB8471CBE2D2300ABD72F /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Views;
 			path = View;
-			sourceTree = "<group>";
-		};
-		490FB8481CBE2D2300ABD72F /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				490FB8491CBE2D4600ABD72F /* ViewController.h */,
-				490FB84A1CBE2D4600ABD72F /* ViewController.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		490FB84C1CBE31DB00ABD72F /* Images */ = {
@@ -176,11 +172,42 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		490FB84E1CBE31DB00ABD72F /* Resourse */ = {
+		490FB84E1CBE31DB00ABD72F /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Resourses;
 			path = Resourse;
+			sourceTree = "<group>";
+		};
+		490FB8501CBE336900ABD72F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				490FB8511CBE336900ABD72F /* ViewController.h */,
+				490FB8521CBE336900ABD72F /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		490FB8541CBE340900ABD72F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		490FB8551CBE340900ABD72F /* libary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libary;
+			sourceTree = "<group>";
+		};
+		490FB8561CBE340900ABD72F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,8 +342,8 @@
 			files = (
 				490FB80F1CBCEDC100ABD72F /* AppDelegate.m in Sources */,
 				490FB8401CBD3CF100ABD72F /* README.md in Sources */,
+				490FB8531CBE336900ABD72F /* ViewController.m in Sources */,
 				490FB80C1CBCEDC100ABD72F /* main.m in Sources */,
-				490FB84B1CBE2D4600ABD72F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
